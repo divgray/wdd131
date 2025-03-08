@@ -70,10 +70,15 @@ h3 {
 	box-sizing: border-box;
 }
 
-body {
+div {
 	font-family: "Sansita", sans-serif;
+    display: inline-grid;
+    grid-template-rows: 400px 400px ;
+    grid-template-columns: 600px 600px;
+    grid-gap: 2px;
 }
-h1, h2 {
+
+h1 {
 	background-color: #e6e6fa;
 	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
@@ -85,8 +90,22 @@ h1, h2 {
     max-width: 100%;
 }
 
+h2 {
+	background-color: #e6e6fa;
+	padding: 0;
+	border: 1px solid rgb(0 0 0 / 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+	font-size: 1rem;
+	text-align: center;
+    max-width: 100%;
+}
+
 h3 {
     color: #8170cc;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
     border-bottom: 1px solid #9c8fe5;
 }
 
@@ -110,6 +129,8 @@ nav a {
     font-size: 1.2em;
     text-align: center;
     width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
 
 nav a:hover {
@@ -129,23 +150,35 @@ div {
 }
 .card {
     border: 1px solid #000000;
-    padding: .5rem;
     text-align: center;
 }
 
-.card img {
-    width: 150px;
+.profile {
+    width: 200px;
     height: auto;
     border: 1px solid #9c8fe5;
     padding: 2px;
     float: right;
+    margin: 20px;
 }
 
-main {
-    width: 800px;
+.nightview {
+    width: 300px;
+    height: auto;
+    border: 1px solid #9c8fe5;
+    padding: 2px;
+    float: left;
+    margin: 20px;
 }
 
 footer {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
   }
