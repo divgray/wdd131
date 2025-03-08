@@ -73,16 +73,21 @@ h3 {
 body {
 	font-family: "Sansita", sans-serif;
 }
-h1, h2, h3 {
+h1, h2 {
 	background-color: #e6e6fa;
-	padding: 0 auto;
+	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     padding: 1rem;
 	font-size: 2rem;
 	text-align: center;
-    max-width: auto;
+    max-width: 100%;
+}
+
+h3 {
+    color: #8170cc;
+    border-bottom: 1px solid #9c8fe5;
 }
 
 .navigation {
@@ -95,7 +100,7 @@ h1, h2, h3 {
 nav {
 	background-color: #8170cc;
 	margin: 0 auto;
-	max-width: auto;
+	max-width: 100%;
 }
 nav a {
 	display: block;
