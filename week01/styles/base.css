@@ -83,7 +83,7 @@ h1 {
 	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     padding: 1rem;
 	font-size: 2rem;
 	text-align: center;
@@ -95,7 +95,7 @@ h2 {
 	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     padding: 1rem;
 	font-size: 1rem;
 	text-align: center;
@@ -130,7 +130,7 @@ nav a {
     text-align: center;
     width: 100%;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 nav a:hover {
