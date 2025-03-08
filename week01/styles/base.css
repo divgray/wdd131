@@ -1,19 +1,25 @@
-header {
-    font-size: .8em;
+/* 
+h1 {
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
+    padding: 1rem;
+    background-color: #e6e6fa;
 }
 
-.navigation { 
+
+.navigation {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
+    padding: 1rem;
+    background-color: #8170cc;
 }
 
 .navigation a {
+    font-size: 1.2em;
     display: block;
-    color: black;
-    padding: 0.75rem;
+    color: white;
     text-decoration: none;
     text-align: center;
     width: 100%;
@@ -25,9 +31,116 @@ div {
     justify-content: space-around;
 }
 
-aside { 
+section { 
     border: 1px solid #000000;
-    padding: 12rem;
+}
+
+h2 {
+    padding: 1rem;
+    background-color: #e6e6fa;
+    display: flex;
+    flex-flow: row;
+    font-size: 1em;
     text-align: center;
-    grid-column: 1 / 3;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #9c8fe5;
+    padding: 2px;
+    float: right;
+}
+
+h3 {
+    color: #8170cc;
+    border-bottom: 1px solid #9c8fe5;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+h1, h2, h3 {
+	background-color: #e6e6fa;
+	padding: 0 auto;
+	border: 1px solid rgb(0 0 0 / 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+    max-width: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+
+nav {
+	background-color: #8170cc;
+	margin: 0 auto;
+	max-width: auto;
+}
+nav a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+}
+
+nav a:hover {
+	text-decoration: overline;
+}
+
+/* main {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+} */
+
+div {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+.card {
+    border: 1px solid #000000;
+    padding: .5rem;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #9c8fe5;
+    padding: 2px;
+    float: right;
+}
+
+main {
+    width: 800px;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
   }

@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals - Divya Ali Priya Giray</title>
+    <title>WDD 131-Dynamic Web Fundamentals - Divya Ali Priya Giray</title>
     <meta name="description" content="WDD131- Dynamic Web Fundamentals by Divya Ali Priya Giray for index page">
     <meta name="author" content="Divya Ali Priya Giray">
     <link rel="stylesheet" href="week01//styles/base.css">
-    <script></script>
+    <script src="week01//scripts/getdates.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -18,24 +22,45 @@
             <a href="https://byupw.instructure.com/">Canvas</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/1?lang=eng">Scripture</a>
             <a href="">Final Project</a>
-          </nav>
+        </nav>
 
     </header>
     <main>
         <div class="box">
 
-            <aside class="aboutme">
+            <section class="card">
+              <h2>About Me</h2>
+              <img src="week01//images/profile.jpg" alt="me">
+              <p>yo. im here to torture myself by learning web. im gwaenchana~~</p>
 
-            </aside>
+              <aside>
+                <h3>Rizal, Philippines</h3>
+                <p>the land you will either love or hate to the fullest.</p>
+              </aside>
 
-            <aside class="resources">
+            </section>
 
-            </aside>
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <nav class="links">
+                    <a href="">Dev.to Community</a>
+                    <a href="">Smashing magazine</a>
+                    <a href="">Css tricks</a>
+                    <a href="">W3 Schools</a>
+                    <a href="">Udemy</a>
+                    <a href="">Image placeholder</a>
+                </nav>
+            </section>
 
         </div>
     </main>
     <footer>
-        <p>©️2025 🌴 Divya Ali Priya Giray 🌴 Rizal, Philippines.</p>
+        <p>
+        ©️ <script>document.write(new Date().getFullYear());</script> 🌸 Divya Ali Priya Giray 🌸 Rizal, Philippines.</p>
+        </p>
+        <p>
+            
+        </p>
     </footer>
 </body>
 </html>
