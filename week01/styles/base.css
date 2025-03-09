@@ -113,14 +113,11 @@ h3 {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
-}
-
-
-nav {
 	background-color: #8170cc;
 	margin: 0 auto;
 	max-width: 100%;
 }
+
 nav a {
 	display: block;
 	color: #fff;
@@ -182,3 +179,4 @@ p {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
   }
+
