@@ -10,14 +10,6 @@ main {
     padding: 10px;
 }
 
-div {
-	font-family: "Sansita", sans-serif;
-    display: grid;
-    grid-template-rows: 600px 600px ;
-    grid-template-columns: 600px 600px;
-    grid-gap: 10px;
-}
-
 h1 {
 	background-color: #e6e6fa;
 	padding: 0;
@@ -73,16 +65,17 @@ nav a:hover {
 	text-decoration: overline;
 }
 
-/* main {
-    display: flex;
-    flex: auto;
-    justify-content: space-around;
-} */
-
 div {
+	font-family: "Sansita", sans-serif;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 800px 400px;
+    grid-gap: 10px;
+}
+
+div .box{
     display: flex;
-    flex: auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .card {
     border: 1px solid #000000;
@@ -92,8 +85,7 @@ div {
 .profile {
     width: 200px;
     height: auto;
-    border: 1px solid #9c8fe5;
-    padding: 2px;
+    border: 2px solid #9c8fe5;
     float: right;
     margin: 20px;
 }
@@ -101,11 +93,14 @@ div {
 .nightview {
     width: 200px;
     height: auto;
-    border: 1px solid #9c8fe5;
-    padding: 2px;
+    border: 2px solid #9c8fe5;
     float: left;
     margin: 20px;
 }
+
+/* .links {
+    text-align: center;
+} */
 
 footer {
     text-align: center;
@@ -117,4 +112,6 @@ p, .links {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+    padding-right: 50px;
+    padding-left: 50px;
   }
