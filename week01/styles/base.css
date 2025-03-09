@@ -105,7 +105,11 @@ div .box{
 footer {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: #8170cc;
+    padding: 20px;
+    color: #ffffff;
   }
 
 p {
@@ -114,6 +118,7 @@ p {
     font-weight: 400;
     padding-right: 50px;
     padding-left: 50px;
+    padding-top: 5px;
 }
 
 li {
