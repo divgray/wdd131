@@ -49,7 +49,7 @@ h3 {
 	margin: 0 auto;
 	max-width: 100%;
 }
-nav a {
+.navigation a {
 	display: block;
 	color: #fff;
 	padding: 1rem;
@@ -108,10 +108,15 @@ footer {
     font-weight: 800;
   }
 
-p, li {
+p {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     padding-right: 50px;
     padding-left: 50px;
-  }
+}
+
+li {
+    text-align: left;
+    padding-left: 20px;
+}
