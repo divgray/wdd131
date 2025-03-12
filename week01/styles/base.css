@@ -11,7 +11,7 @@ main {
 }
 
 h1 {
-	background-color: #e6e6fa;
+	background-color: #ffffff;
 	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
     font-family: 'Quicksand', sans-serif;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-	background-color: #e6e6fa;
+	background-color: #ededff;
 	padding: 0;
 	border: 1px solid rgb(0 0 0 / 0.1);
     font-family: 'Quicksand', sans-serif;
@@ -35,17 +35,17 @@ h2 {
 }
 
 h3 {
-    color: #8170cc;
+    color: #5848a3;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    border-bottom: 1px solid #9c8fe5;
+    border-bottom: 1px solid #635999;
 }
 
 .navigation {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
-    background-color: #8170cc;
+    background-color: #55459c;
 	margin: 0 auto;
 	max-width: 100%;
 }
@@ -70,7 +70,7 @@ div {
     display: grid;
     grid-template-rows: 400px;
     grid-template-columns: 800px 400px;
-    grid-gap: 10px;
+    grid-gap: 50px;
     width: 100%;
 }
 
@@ -108,7 +108,7 @@ footer {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: .8rem;
-    background-color: #8170cc;
+    background-color: #55459c;
     padding: 10px;
     color: #ffffff;
   }
@@ -124,6 +124,10 @@ p {
 
 ul {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20%;
     font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
