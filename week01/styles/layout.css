@@ -13,8 +13,15 @@
     width: 100%;
 }
 
-aside { 
+/* aside { 
     border: 1px solid #000000;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 3;
+  } */
+
+  aside { 
+    border: 1px solid #eee;
     padding: 2rem;
     text-align: center;
     grid-column: 1 / 3;

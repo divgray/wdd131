@@ -71,6 +71,7 @@ div {
     grid-template-rows: 400px;
     grid-template-columns: 800px 400px;
     grid-gap: 10px;
+    width: 100%;
 }
 
 div .box{
@@ -83,7 +84,7 @@ div .box{
 }
 
 .profile {
-    width: 200px;
+    max-width: 100%;
     height: auto;
     border: 2px solid #9c8fe5;
     float: right;
@@ -91,7 +92,7 @@ div .box{
 }
 
 .nightview {
-    width: 200px;
+    max-width: 100%;
     height: auto;
     border: 2px solid #9c8fe5;
     float: left;
