@@ -1,133 +1,391 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-main {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-h1 {
-	background-color: #ffffff;
-	padding: 0;
-	border: 1px solid rgb(0 0 0 / 0.1);
+@media (max-width: 300px){
+    * {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    padding: 1rem;
-	font-size: 2rem;
-	text-align: center;
-    max-width: 100%;
-}
-
-h2 {
-	background-color: #ededff;
-	padding: 0;
-	border: 1px solid rgb(0 0 0 / 0.1);
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    padding: 1rem;
-	font-size: 1rem;
-	text-align: center;
-    max-width: 100%;
-}
-
-h3 {
-    color: #5848a3;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    border-bottom: 1px solid #635999;
-}
-
-.navigation {
-    display: flex;
-    align-items: center;
-    flex: 1 1 auto;
-    background-color: #55459c;
-	margin: 0 auto;
-	max-width: 100%;
-}
-.navigation a {
-	display: block;
-	color: #fff;
-	padding: 1rem;
-	text-decoration: none;
-    font-size: 1.2em;
     text-align: center;
-    width: 100%;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
+    padding: .5%;
+    }
+
+    /* main {
+        display: grid;
+        grid-template-columns:  2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1rem;
+        width: 100%;
+    } */
+
+    div {
+        font-family: "Sansita", sans-serif;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 62% 35%;
+        grid-gap: .5rem;
+        width: 100%;
+    }
+    
+    div .box{
+        display: flex;
+    }
+    .card {
+        border: 1px solid #000000;
+        text-align: center;
+    }
+    
+    .profile {
+        max-width: 30%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: right;
+        margin: .5rem;
+    }
+    
+    .nightview {
+        max-width: 40%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: left;
+        margin: 20px;
+    }
+
+    h1 {
+        background-color: #ededff;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: .8rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    h2 {
+        background-color: #ededff;
+        padding: 0;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        padding: .5rem;
+        font-size: .7rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    h3 {
+        color: #5848a3;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid #635999;
+        font-size: .8rem;
+    }
+    
+    .navigation {
+        display: flex;
+        align-items: center;
+        background-color: #55459c;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        text-decoration: none;
+        font-size: .7rem;
+        text-align: center;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    nav a:hover {
+        text-decoration: overline;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .8rem;
+        background-color: #55459c;
+        padding: .1rem;
+        color: #ffffff;
+        height: 1%;
+    }
+    
+    p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .6rem;
+    }
+    
+    ul {
+        text-align: left;
+        padding: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .7rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
 }
 
-nav a:hover {
-	text-decoration: overline;
+@media (min-width: 1010px){
+    * {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        /* padding: 1rem; */
+        }
+    
+    /* body {
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+    } */
+    
+    div {
+        font-family: "Sansita", sans-serif;
+        display: grid;
+        justify-content: space-between;
+        grid-template-rows: 10fr;
+        grid-template-columns: 6fr 3fr;
+        grid-gap: .8rem;
+        width: 100%;
+    }
+        
+    div .box{
+        display: flex;
+    }
+    .card {
+        border: 1px solid #000000;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+        
+    .profile {
+        max-width: 20%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: right;
+        margin: .5rem;
+        border-radius: 5%;
+        }
+        
+    .nightview {
+        max-width: 40%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: left;
+        margin: 20px;
+        border-radius: 5%;
+        }
+    
+    h1 {
+        background-color: #ededff;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        font-size: 1.6rem;
+        text-align: center;
+        max-width: 100%;
+        padding: 1rem;
+    }
+        
+    h2 {
+        background-color: #ededff;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        padding: 1rem;
+        font-size: 1.4rem;
+        text-align: center;
+        max-width: 100%;
+    }
+        
+    h3 {
+        color: #5848a3;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid #635999;
+        font-size: 1.2rem;
+        }
+
+        .card p {
+            font-size: 1.2rem;
+            padding: .5rem;
+        }
+        
+    .navigation {
+        display: flex;
+        align-items: center;
+        background-color: #55459c;
+        margin: 0 auto;
+        max-width: 100%;
+        }
+        
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        text-decoration: none;
+        font-size: 1.4rem;
+        text-align: center;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        }
+        
+    nav a:hover {
+        text-decoration: overline;
+    }
+    
+    footer {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #55459c;
+        padding: .1rem;
+        color: #ffffff;
+        height: 1%;
+    }
+        
+    footer p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .8rem;
+    }
+        
+    ul {
+        text-align: left;
+        padding: 2rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
 }
 
-div {
-	font-family: "Sansita", sans-serif;
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 800px 400px;
-    grid-gap: 50px;
-    width: 100%;
-}
 
-div .box{
-    display: flex;
-    justify-content: space-between;
-}
-.card {
-    border: 1px solid #000000;
-    text-align: center;
-}
+@media (max-width: 1000px){
+    * {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        padding: .5%;
+    }
+    
+    div {
+        font-family: "Sansita", sans-serif;
+        display: grid;
+        grid-template-rows: 4fr;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: .5rem;
+        width: 100%;
+    }
+        
+    div .box{
+        display: flex;
+    }
+        
+    .card {
+        border: 1px solid #000000;
+        text-align: center;
+    }
+        
+    .profile {
+        max-width: 25%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: right;
+        margin: .2rem;
+    }
+        
+    .nightview {
+        max-width: 30%;
+        height: auto;
+        border: 2px solid #9c8fe5;
+        float: left;
+        margin: 1rem;
+    }
+    
+    h1 {
+        background-color: #ededff;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 1.4rem;
+        text-align: center;
+        max-width: 100%;
+    }
+        
+    h2 {
+        background-color: #ededff;
+        padding: 0;
+        border: 1px solid rgb(0 0 0 / 0.1);
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        padding: .5rem;
+        font-size: 1.2rem;
+        text-align: center;
+        max-width: 100%;
+    }
+        
+    h3 {
+        color: #5848a3;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid #635999;
+        font-size: 1rem;
+    }
+        
+    .navigation {
+        display: flex;
+        align-items: center;
+        background-color: #55459c;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+        
+    .navigation a {
+        display: block;
+        color: #fff;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+    }
+        
+    nav a:hover {
+        text-decoration: overline;
+    }
+    
+    footer {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .6rem;
+        background-color: #55459c;
+        color: #ffffff;
+        height: 1%;
+    }
 
-.profile {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #9c8fe5;
-    float: right;
-    margin: 20px;
-}
-
-.nightview {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #9c8fe5;
-    float: left;
-    margin: 20px;
-}
-
-/* .links {
-    text-align: center;
-} */
-
-footer {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    font-size: .8rem;
-    background-color: #55459c;
-    padding: 10px;
-    color: #ffffff;
-  }
-
-p {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 5px;
-}
-
-ul {
-    text-align: left;
-    padding-left: 20%;
-    font-family: 'Quicksand', sans-serif;
-}
-
-a {
-    text-decoration: none;
+    footer p {
+        font-size: .6rem;
+    }
+        
+    .card p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        padding: .5rem;
+    }
+        
+    ul {
+        text-align: left;
+        padding: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
 }

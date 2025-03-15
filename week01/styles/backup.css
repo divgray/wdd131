@@ -1,0 +1,136 @@
+/*
+Copy of the first base.css i wrote. */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+h1 {
+	background-color: #ffffff;
+	padding: 0;
+	border: 1px solid rgb(0 0 0 / 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+    max-width: 100%;
+}
+
+h2 {
+	background-color: #ededff;
+	padding: 0;
+	border: 1px solid rgb(0 0 0 / 0.1);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding: 1rem;
+	font-size: 1rem;
+	text-align: center;
+    max-width: 100%;
+}
+
+h3 {
+    color: #5848a3;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid #635999;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: #55459c;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.navigation a {
+	display: block;
+	color: #fff;
+	padding: 1rem;
+	text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+nav a:hover {
+	text-decoration: overline;
+}
+
+div {
+	font-family: "Sansita", sans-serif;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 800px 400px;
+    grid-gap: 50px;
+    width: 100%;
+}
+
+div .box{
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.profile {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #9c8fe5;
+    float: right;
+    margin: 20px;
+}
+
+.nightview {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #9c8fe5;
+    float: left;
+    margin: 20px;
+}
+
+/* .links {
+    text-align: center;
+} */
+
+footer {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: #55459c;
+    padding: 10px;
+    color: #ffffff;
+  }
+
+p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
