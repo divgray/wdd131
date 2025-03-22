@@ -1,0 +1,39 @@
+1. Select the statement that is true about an assertion statement.
+>   it causes the computer to check if a comparison is true 
+
+2. Which python module is use to write and run test functions?
+> pytest
+
+3. Which function is useful when testing equality of floating point numbers?
+> approx
+
+4. Which of the following are good design principles when writing test functions.
+>protect your main code from running when imported by adding code similar to this
+
+if __name__ == "__main__":
+    main()
+>  Separate test code from program code. 
+> import your program code into your test code with the import statement 
+
+5. Test functions must have at least ____ assert statements.
+> 1
+
+6. Mistyping the name of a function would cause a ______ error.
+> syntax
+
+7. A good way to help you debug logic errors is to temporarily include print statements to see what value a variable contains at that point in your code.
+> true
+
+8. Which of the following features can be accomplished with the debugger in VSCode.
+> Inspect the value of variables while debugging by hovering the mouse cursor over the variable name.
+> Automatically watch variables. 
+> Set breakpoints where the program will pause execution so you can interact with the debugger. 
+> Step through code while it is running. 
+
+9. You are debugging a program and execution reaches a breakpoint on a line of code that calls a user defined function. You are fairly confident that the user defined function is correct and don’t want to see all of the statements in the user defined function. What would be the best action to take?
+> Step Over
+
+10. Your program calculates miles per gallon. The mpg result is not correct. This is an example of a ______ error.
+>
+x. calculation
+x. syntax
