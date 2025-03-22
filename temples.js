@@ -1,10 +1,10 @@
 /*Hamburger menu */
-const hamMenu = document.getElementById(".ham-menu");
+const hamMenu = document.getElementsByClassName(".ham-menu");
 
-const offScreenMenu = document.getElementById(".off-screen-menu");
+const offScreenMenu = document.getElementsByClassName(".off-screen-menu");
 
 
-hamMenu.getElementById("click", () => {
+hamMenu.getElementsByClassName("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
