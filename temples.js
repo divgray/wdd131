@@ -1,4 +1,3 @@
-/*Hamburger menu */
 const hamMenu = document.getElementsByClassName(".ham-menu");
 
 const offScreenMenu = document.getElementsByClassName(".off-screen-menu");
@@ -8,7 +7,7 @@ hamMenu.getElementsByClassName("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
-/*get dates js */
+
 alert(document.lastModified);
 
 let oLastModif = new Date(document.lastModified);
