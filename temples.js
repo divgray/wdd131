@@ -1,10 +1,9 @@
-const hamMenu = document.addEventListener(".ham-menu");
+const hamButton = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
 
-const offScreenMenu = document.addEventListener(".off-screen-menu");
-
-hamMenu.addEventListener("click", () => {
-  hamMenu.classList.toggle("active");
-  offScreenMenu.classList.toggle("active");
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('open');
+	hamButton.classList.toggle('open');
 });
 
 
