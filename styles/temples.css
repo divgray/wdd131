@@ -49,8 +49,8 @@
 
     /* ham menu */
     .ham-menu {
-        height: 50px;
-        width: 40px;
+        height: 40px;
+        width: 30px;
         margin-left: auto;
         position: relative;
     }

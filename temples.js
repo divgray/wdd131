@@ -3,7 +3,6 @@ const hamMenu = document.getElementsByClassName(".ham-menu");
 
 const offScreenMenu = document.getElementsByClassName(".off-screen-menu");
 
-
 hamMenu.getElementsByClassName("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
