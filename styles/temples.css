@@ -44,6 +44,7 @@
         padding: 1rem;
         display: flex;
         background-color: rgb(34, 37, 49);
+        width: 100%;
     }
 
     /* ham menu */
@@ -90,6 +91,7 @@
     body {
         background-color: rgb(65, 71, 97);
         font-family: sans-serif;
+        max-width: 375px;
     }
 
     h1 {
