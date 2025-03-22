@@ -1,8 +1,8 @@
-const hamMenu = document.getElementsByClassName(".ham-menu");
+const hamMenu = document.addEventListener(".ham-menu");
 
-const offScreenMenu = document.getElementsByClassName(".off-screen-menu");
+const offScreenMenu = document.addEventListener(".off-screen-menu");
 
-hamMenu.getElementsByClassName("click", () => {
+hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
