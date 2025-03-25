@@ -116,4 +116,7 @@
 
     }
 
+    .active::before { 
+        content: "🌸";
+    }
 }
