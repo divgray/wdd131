@@ -77,11 +77,11 @@
     }
     .album {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-bottom: 5rem;
+        align-content: center;
     }
     .album img {
-        align-self: center;
         height: auto;
         width: 100%;
     }
