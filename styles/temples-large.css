@@ -67,6 +67,7 @@
         padding-top: 2rem;
         text-align: center;
         color:  #55459c;
+        font-size: 4rem;
 
     }
 
@@ -94,13 +95,13 @@
         color: #55459c;
         padding-top: .5rem;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     footer {
         text-align: center;
         font-family: 'Quicksand', sans-serif;
-        font-size: 1.5rem;
+        font-size: 3rem;
         background-color: #55459c;
         padding: 2rem;
         color: #ffffff;
