@@ -21,6 +21,9 @@
         padding-top: .5rem;
         padding-bottom: .5rem;
     }
+    .nav li a:hover {
+        text-decoration: overline;
+    }
     
     h1 {
         background-color: #55459c;
