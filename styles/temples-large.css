@@ -76,7 +76,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 80%;
     }
     .album {
         display: grid;
@@ -86,7 +86,7 @@
     }
     .album img {
         height: auto;
-        width: 90%;
+        width: 100%;
     }
 
     figure {
