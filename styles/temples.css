@@ -127,9 +127,4 @@
     .open a {
         display: block;
     }
-
-    .nav li a:hover {
-        text-decoration: overline;
-    }
-
 }
