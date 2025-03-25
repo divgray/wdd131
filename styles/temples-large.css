@@ -11,15 +11,19 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 2rem;
+        width: 100%;
     }
 
-    .header {
-        /* background-color: #55459c;
+    h1 {
+        background-color: #55459c;
         color: #fff;
-        font-size: 3rem; */
+        font-size: 5rem;
         width: 100%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding: 2rem 5rem 2rem 5rem;
+    }
+
+    .navigation {
+        width: 100%;
     }
 
     .navigation ul {
@@ -57,22 +61,11 @@
         text-decoration: none;
     }
 
-    h1 {
-        background-color: #55459c;
-        color: #fff;
-        padding-bottom: .5rem;
-        padding-top: 1.5rem;
-        padding-left: 1.5rem;
-        width: 100%;
-        font-size: 3rem;
-    }
-
     h2 {
         padding-top: 5rem;
-        padding-bottom: 5rem;
         text-align: center;
         color:  #55459c;
-        font-size: 5rem;
+        font-size: 4rem;
 
     }
 
@@ -80,7 +73,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 100%;
     }
     .album {
         display: grid;
@@ -101,16 +94,18 @@
         color: #55459c;
         padding-top: .5rem;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     footer {
         text-align: center;
         font-family: 'Quicksand', sans-serif;
-        font-size: 4rem;
+        font-size: 2rem;
         background-color: #55459c;
         padding: 2rem;
         color: #ffffff;
         width: 100%;
+
     }
+
 }
