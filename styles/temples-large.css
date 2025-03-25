@@ -80,6 +80,7 @@
     .album {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
+        padding-bottom: 4rem;
     }
     .album img {
         align-self: center;
