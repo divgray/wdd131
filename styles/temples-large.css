@@ -112,10 +112,5 @@
         padding: 2rem;
         color: #ffffff;
         width: 100%;
-
-    }
-
-    .active::before { 
-        content: "🌸";
     }
 }
