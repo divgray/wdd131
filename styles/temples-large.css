@@ -6,6 +6,32 @@
         font-family: 'Roboto', 'sans-serif';
     }
 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .header {
+        background-color: #55459c;
+        color: #fff;
+        font-size: 3rem;
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 10rem;
+    }
+
+    .navigation {
+        width: 100%;
+    }
+
+    .navigation ul {
+        list-style: none;
+    }
+
     .navigation, li , a {
         display: flex;
         justify-content: space-around;
@@ -24,7 +50,14 @@
     .nav li a:hover {
         text-decoration: overline;
     }
-    
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
     h1 {
         background-color: #55459c;
         color: #fff;
