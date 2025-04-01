@@ -9,6 +9,11 @@ footer {
 	margin: 0 auto;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
 .banner {
 	padding: 1rem;
 	background-color: #eee;
