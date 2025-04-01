@@ -17,6 +17,8 @@ main {
 .banner {
 	padding: 1rem;
 	background-color: #eee;
+    border: 1px solid #410537;
+    text-align: center;
 }
 
 h1 {
