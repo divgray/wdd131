@@ -90,8 +90,8 @@
     }
     
     .col {
-        border-top: var(--bord);
-        border-left: var(--bord);
+        /* border-top: var(--bord);
+        border-left: var(--bord); */
         padding: .1rem;
     }
 
@@ -166,7 +166,7 @@
         color: black;
         background-color: white;
         font-family: 'Montserrat', sans-serif;
-        font-size: 600;
+        font-weight: 600;
     }
     
     
@@ -251,8 +251,8 @@
     }
     
     .col {
-        border-top: var(--bord);
-        border-left: var(--bord);
+        /* border-top: var(--bord);
+        border-left: var(--bord); */
         padding: .1rem;
     }
 
