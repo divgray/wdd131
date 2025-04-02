@@ -1,15 +1,17 @@
+:root {
+    background-color: rgb(252, 252, 243);
+    margin: auto;
+  }
+
 @media (max-width: 600px) {
     html {
         width: 300px;
-        margin: auto;
-        background-color: rgb(252, 252, 243);
     }
-    
+
     *{
         margin:0;
         padding:0;
       }
-    
     
     header {
         margin: 0;
@@ -142,8 +144,6 @@
 @media (min-width: 610px) {
     html {
         width: 100%;
-        margin: auto;
-        background-color: rgb(252, 252, 243);
     }
     
     *{
