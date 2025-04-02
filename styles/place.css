@@ -3,8 +3,8 @@
     margin: auto;
   }
 
-p::after {
-    content: " -So so late :'(";
+p.weather::after {
+    content: " -Soo hot";
   }
 
 @media (max-width: 600px) {
