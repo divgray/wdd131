@@ -3,10 +3,6 @@
     margin: auto;
   }
 
-.weather::after {
-    content: " -Soo hot";
-  }
-
 @media (max-width: 600px) {
     html {
         width: 300px;
