@@ -198,12 +198,10 @@
     .hero {
         position: relative;
         width: 100%;
-        object-fit: auto;
         height: auto;
     }
     
     .hero img {
-        position: block;
         width: 100%;
         height: auto;
     }
