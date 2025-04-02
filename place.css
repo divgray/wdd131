@@ -1,0 +1,302 @@
+@media (max-width: 600px) {
+    html {
+        width: 300px;
+        margin: auto;
+        background-color: rgb(252, 252, 243);
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+      }
+    
+    
+    header {
+        margin: 0;
+    }
+    
+    
+    h1 {
+        width: 20rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: .2rem;
+        padding-top: 1rem;
+        color: black;
+        background-color: white;
+        font-family: 'EB Garamond', sans-serif;
+    }
+    
+    
+    span {
+        display: flex;
+    }
+    
+    
+    .one {
+        width: 20rem;
+        padding: .2rem;
+        background-color: blue;
+    }
+    
+    
+    .two {
+        width: 20rem;
+        padding: .2rem;
+        background-color: red;
+    }
+    
+    
+    .three {
+        width: 20rem;
+        padding: .2rem;
+        background-color: red;
+        margin-top: -2%;
+    }
+    
+    .four {
+        padding: .5rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .6rem;
+    }
+    
+    .hero img {
+        width: 20.4rem;
+        height: auto;
+    }
+
+    h2{
+        text-align: center;
+        padding: .5rem;
+        font-family: 'Parkinsans', sans-serif;
+        font-size: 1rem;
+    }
+
+
+    .datatable, .weather {
+        width: 50%;
+        margin: auto;
+        font-family: 'Parkinsans', sans-serif;
+        font-size: .8rem;
+        padding: 1rem;
+    }
+    
+    .row {
+        display: grid;
+        grid-template-columns: 6rem 16rem;
+        align-items: center;
+        text-align: left;
+
+    }
+    
+    .col {
+        border-top: var(--bord);
+        border-left: var(--bord);
+        padding: .1rem;
+    }
+
+
+    .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        padding: 1rem;
+    }
+
+    
+    
+
+
+    
+
+
+    footer {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        background-color: black;
+        padding: .5rem;
+        color: #ffffff;
+        height: 1%;
+    }
+        
+    footer p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .8rem;
+    }
+        
+    ul {
+        text-align: left;
+        padding: 2rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+}
+
+@media (min-width: 610px) {
+    html {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(252, 252, 243);
+    }
+    
+    *{
+        margin:0;
+        padding:0;
+      }
+    
+    
+    header {
+        margin: 0;
+    }
+    
+    
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding: .2rem;
+        padding-top: 1rem;
+        color: black;
+        background-color: white;
+        font-family: 'EB Garamond', sans-serif;
+    }
+    
+    
+    span {
+        display: flex;
+    }
+    
+    
+    .one {
+        width: 100%;
+        padding: .2rem;
+        background-color: blue;
+    }
+    
+    
+    .two {
+        width: 100%;
+        padding: .2rem;
+        background-color: red;
+    }
+    
+    
+    .three {
+        width: 100%;
+        padding: .2rem;
+        background-color: red;
+        margin-top: -1%;
+    }
+    
+    .hero {
+        position: relative;
+        width: 100%;
+        object-fit: auto;
+        height: auto;
+    }
+    
+    .hero img {
+        position: block;
+        width: 100%;
+        height: auto;
+    }
+
+    h2{
+        font-family: 'Parkinsans', sans-serif;
+        font-size: 1rem;
+        background-color: blue;
+        color: white;
+        padding: .5rem;
+        
+    }
+
+
+    .data, .weather {
+        font-family: 'Parkinsans', sans-serif;
+        font-size: .8rem;
+        padding: 1rem;
+        background-color: white;
+    }
+
+    .data {
+        position: absolute;
+        top: 5rem;
+        width: 200px;
+        left: 2rem;
+        opacity: .9;
+    }
+    
+    .weather {
+        position: absolute;
+        top: 24rem;
+        width: 200px;
+        right: 2rem;
+        opacity: .9;
+    }
+    
+
+
+    .row {
+        display: grid;
+        grid-template-columns: 6rem 16rem;
+        align-items: center;
+        text-align: left;
+
+    }
+    
+    .col {
+        border-top: var(--bord);
+        border-left: var(--bord);
+        padding: .1rem;
+    }
+
+
+    .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        padding: 1rem;
+    }
+
+
+    
+
+
+    footer {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        background-color: black;
+        padding: .5rem;
+        color: #ffffff;
+        height: 1%;
+    }
+        
+    footer p {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: .8rem;
+    }
+        
+    ul {
+        text-align: left;
+        padding: 2rem;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+
+
+
+}

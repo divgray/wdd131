@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131-Dynamic Web Fundamentals - Divya Ali Priya Giray</title>
+    <meta name="description" content="WDD131- Dynamic Web Fundamentals by Divya Ali Priya Giray for week 03 project Place.">
+    <meta name="author" content="Divya Ali Priya Giray">
+    <link rel="stylesheet" href="place.css">
+    <script src="place.js" defer></script>
+
+<!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<!-- EB Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<!-- Prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Coron Island</h1>
+        <span class="one"></span>
+        <span class="two"></span>
+
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/coron-island.webp" alt="Picture of Koln Dom">
+            <span class="three"></span>
+        </div>
+
+        <div class="data">
+            <h2>Data</h2>
+            <div class="datatable">
+                <div class="row">
+                    <div class="col">Area: </div>
+                    <div class="col">71 km2 (27 sq mi)</div>
+                </div>
+                <div class="row">
+                    <div class="col">Population </div>
+                    <div class="col">2649 (2010)</div>
+                </div>
+                <div class="row">
+                    <div class="col">Capital: </div>
+                    <div class="col">Palawan</div>
+                </div>
+                <div class="row">
+                    <div class="col">Languages: </div>
+                    <div class="col">Palawano</div>
+                </div>
+                <div class="row">
+                    <div class="col">Currency: </div>
+                    <div class="col">Pesos</div>
+                </div>
+                <div class="row">
+                    <div class="col">Time Zone: </div>
+                    <div class="col">UTC+8</div>
+                </div>
+                <div class="row">
+                    <div class="col">Calling Code: </div>
+                    <div class="col">048</div>
+                </div>
+                <div class="row">
+                    <div class="col">Internet TLD: </div>
+                    <div class="col">.ph</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <img class="icon" src="images/partly-cloudy.svg" alt="sunny icon">
+            <div class="row">
+                <div class="col">Temperature: </div>
+                <div class="col">29 °C</div>
+            </div>
+
+            <div class="row">
+                <div class="col">Conditions: </div>
+                <div class="col">Mostly Cloudy</div>
+            </div>
+
+            <div class="row">
+                <div class="col">Wind: </div>
+                <div class="col">E 14 km/h</div>
+            </div>
+
+            <div class="row">
+                <div class="col">Windchill: </div>
+                <div class="col">N/A</div>
+            </div>
+
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p><b>
+            ©️ <script>document.write(new Date().getFullYear());</script> 🌸 Divya Ali Priya Giray 🌸 Rizal, Philippines.
+            </b></p>
+            <p id="demo">
+                <script>
+                    let text = document.lastModified;
+                    document.getElementById("demo").innerHTML = text;
+                </script>
+            </p>
+    </footer>
+</body>
+</html>
