@@ -299,6 +299,10 @@
         text-decoration: none;
     }
 
+    .weather::after {
+        content: " -Soo hot 🔥 ";
+      }
+
 }
 
 .prompt-regular {
