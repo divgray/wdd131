@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Divya Ali Priya Giray">
+    <meta name="description" content="WDD 131: Week 2 Assignment: Picture Album">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button type="button" id="menu"></button>
+        <nav>
+	        <ul class="navigation">
+                <li><a href="#" title="Home" class="active">Home</a></li>
+		        <li><a href="#" title="About Us">Old</a></li>
+		        <li><a href="#" title="Service">New</a></li>
+		        <li><a href="#" title="History">Large</a></li>
+		        <li><a href="#" title="Contact">Small</a></li>
+	        </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div class="album">
+            
+        </div>
+
+    </main>
+    
+    <footer>
+        <p><b>
+            ©️ <script>document.write(new Date().getFullYear());</script> 🌸 Divya Ali Priya Giray 🌸 Rizal, Philippines.
+            </b></p>
+            <p id="demo">
+                <script>
+                    let text = document.lastModified;
+                    document.getElementById(
+                        "demo").innerHTML = text;
+                </script>
+            </p>
+
+    </footer>
+</body>
+</html>
