@@ -84,6 +84,7 @@ h2 {
     padding: .5rem;
     margin: .5rem auto;
     min-width: 350px;
+    border-radius: 1rem;
 }
 
 #album div img {
