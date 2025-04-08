@@ -12,7 +12,6 @@
     position: absolute;
     top: 1.5rem;
     right: 2rem;
-    border-radius: .5rem;
     padding: .5rem;
 }
 
@@ -44,12 +43,11 @@
 nav a:hover {
     border-bottom: 3px solid #2e2162;
     font-weight: 600;
-    border-radius: 0 0 .5em .5em;
+    border-radius: 0 1rem 1rem 1rem;
     text-decoration: overline;
     background-color: #55459c;
     color: white;
     font-weight: 400;
-    border-radius: 0 0 .5em .5em;
 }
 
 .open, .open a {
@@ -62,14 +60,15 @@ h1 {
     background-color: #55459c;
     color: white;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0 1rem 1rem 1rem;
+    max-width: 100%;
 }
 
 h2 {
     text-align: center;
     color:  #55459c;
     font-family: 'Prompt', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #album {
@@ -81,22 +80,28 @@ h2 {
     background-color: #ded7ff;
     border: 1px solid #2e2162;
     text-align: center;
-    padding: .5rem;
+    padding-bottom: .5rem;
     margin: .5rem auto;
     min-width: 350px;
     border-radius: 1rem;
 }
 
 #album div img {
-    max-width: 300px;
+    width: 300px;
+    height: 180px;;
     overflow: hidden;
     box-shadow: 0 0 .5em 0 #000000;
+    border-radius: 1rem;
 }
 
-#album p, h3 {
-    font-family: 'Roboto', sans-serif;
+#album h3 {
+    font-family: 'Prompt', sans-serif;
     font-size: 1rem;
-    padding-bottom: 1rem;
+}
+
+#album p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
 }
 
 footer {
@@ -106,5 +111,5 @@ footer {
     background-color: #55459c;
     padding: .5rem;
     color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0 1rem 1rem 1rem;
 }
