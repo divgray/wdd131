@@ -5,32 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Album</title>
     <meta name="author" content="Divya Ali Priya Giray">
-    <meta name="description" content="WDD 131: Week 2 Assignment: Picture Album">
+    <meta name="description" content="WDD 131: Week 4 Assignment: Picture Album Emhancment">
     <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
     <script src="scripts/filtered-temples.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Prompt:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Temple Album</h1>
-        <button type="button" id="menu"></button>
-        <nav>
-	        <ul class="navigation">
-                <li><a href="#" title="Home" class="active">Home</a></li>
-		        <li><a href="#" title="About Us">Old</a></li>
-		        <li><a href="#" title="Service">New</a></li>
-		        <li><a href="#" title="History">Large</a></li>
-		        <li><a href="#" title="Contact">Small</a></li>
-	        </ul>
+        <button name="menu" type="button" id="menu"></button>
+        <nav class="navigation">
+            <a href="#" id="all-temples">Home</a>
+            <a href="#" id="old-temples">Old</a>
+            <a href="#" id="new-temples">New</a>
+            <a href="#" id="large-temples">Large</a>
+            <a href="#" id="small-temples">Small</a>
         </nav>
     </header>
     <main>
-        <h2>Home</h2>
-        <div class="album">
-            
+        <h2 id="selection">Home</h2>
+        <div id="album">   
         </div>
 
     </main>
