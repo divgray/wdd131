@@ -12,6 +12,7 @@
     position: absolute;
     top: 1.5rem;
     right: 2rem;
+    border-radius: .5rem;
     padding: .5rem;
 }
 
@@ -43,11 +44,12 @@
 nav a:hover {
     border-bottom: 3px solid #2e2162;
     font-weight: 600;
-    border-radius: 0 1rem 1rem 1rem;
+    border-radius: 0 0 .5em .5em;
     text-decoration: overline;
     background-color: #55459c;
     color: white;
     font-weight: 400;
+    border-radius: 0 0 .5em .5em;
 }
 
 .open, .open a {
@@ -60,15 +62,14 @@ h1 {
     background-color: #55459c;
     color: white;
     padding: 1rem;
-    border-radius: 0 1rem 1rem 1rem;
-    max-width: 100%;
+    border-radius: 1rem;
 }
 
 h2 {
     text-align: center;
     color:  #55459c;
     font-family: 'Prompt', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #album {
@@ -88,10 +89,9 @@ h2 {
 
 #album div img {
     width: 300px;
-    height: 180px;;
+    height: 180px;
     overflow: hidden;
     box-shadow: 0 0 .5em 0 #000000;
-    border-radius: 1rem;
 }
 
 #album h3 {
@@ -111,5 +111,5 @@ footer {
     background-color: #55459c;
     padding: .5rem;
     color: #ffffff;
-    border-radius: 0 1rem 1rem 1rem;
+    border-radius: 1rem;
 }
