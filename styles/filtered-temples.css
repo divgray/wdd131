@@ -10,10 +10,9 @@
     background-color: #55459c;
     color: #ffffff;
     position: absolute;
-    top: 1.5rem;
+    top: 1.2rem;
     right: 2rem;
     border-radius: .5rem;
-    padding: .5rem;
 }
 
 #menu::before {
@@ -36,7 +35,7 @@
 
 .navigation a {
     display: none;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center;
     text-decoration: none;
     color: #fff;
