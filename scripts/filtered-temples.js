@@ -76,7 +76,7 @@ const temples = [
 	  location: "Calle del Templo, Madrid",
 	  dedicated: "1999, March, 19",
 	  area: 152000,
-	  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/_temp/056-Madrid-Spain-Temple.jpg"
+	  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/madrid-spain-temple/madrid-spain-temple-54291-thumb.jpg"
 	},
 
 	{
@@ -84,7 +84,7 @@ const temples = [
 	  location: "50 N Wells St Nauvoo, Illinois",
 	  dedicated: "2002, June, 27",
 	  area: 54000,
-	  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/nauvoo-illinois-temple/nauvoo-illinois-temple-50576-main.jpg"
+	  imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/nauvoo-illinois-temple/nauvoo-illinois-temple-7472-thumb.jpg"
 	},
 
 	{
@@ -92,7 +92,7 @@ const temples = [
 		location: "2000 Beaumont Pkwy, Reno, Nevada",
 		dedicated: "2000, April, 23",
 		area: 10700,
-		imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/reno-nevada-temple/reno-nevada-temple-5681-main.jpg"
+		imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/reno-nevada-temple/reno-nevada-temple-53492-thumb.jpg"
 	  }
   ];
 
