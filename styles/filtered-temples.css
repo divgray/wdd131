@@ -58,7 +58,7 @@ nav a:hover {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #55459c;
     color: white;
     padding: 1rem;
@@ -69,7 +69,7 @@ h2 {
     text-align: center;
     color:  #55459c;
     font-family: 'Prompt', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 #album {
@@ -95,19 +95,19 @@ h2 {
 
 #album h3 {
     font-family: 'Prompt', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 #album p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 footer {
     grid-column: 1/3;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
     background-color: #55459c;
     padding: .1rem;
     color: #ffffff;
