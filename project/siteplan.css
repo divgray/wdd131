@@ -76,6 +76,6 @@ nav a, p {
     font-family: "Roboto", sans-serif;
 }
 #wireframe img{
-    height: 80px;
+    width: 80px;
     padding: .5rem;
 }
