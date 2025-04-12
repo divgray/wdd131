@@ -73,15 +73,10 @@ nav a, p {
 
 #wireframe {
     display: flex;
-    font-family: "Roboto", sans-serif;
 }
+
 #wireframe img{
     height: 100px;
     width: auto;
     padding: .5rem;
-}
-
-figcaption {
-    font-family: "Prompt", sans-serif;
-    font-size: .8rem;
 }
