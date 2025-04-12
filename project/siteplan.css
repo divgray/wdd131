@@ -1,0 +1,61 @@
+:root {
+    margin: auto;
+    padding: 0;
+    max-width: 400px;
+    /* background-color: black; */
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    background-color: black;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+#opening {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#opening img {
+    width: 50px;
+    padding: .5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.a {
+    color: white;
+    background-color: black;
+    padding: .5rem;
+    border: 2px solid yellow;
+}
+.b {
+    color: black;
+    background-color: white;
+    padding: .5rem;
+    border: 1px solid black;
+}
+.c {
+    color: black;
+    background-color: yellow;
+    padding: .5rem;
+    border: 1px solid black;
+}
