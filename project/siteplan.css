@@ -5,7 +5,7 @@
     /* background-color: black; */
 }
 
-h2, h3, h4 {
+h2 {
     font-family: "Prompt", sans-serif;
     font-size: 1rem;
     color: white;
@@ -69,4 +69,13 @@ nav a, p {
     background-color: yellow;
     padding: .5rem;
     border: 1px solid black;
+}
+
+#wireframe {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+#wireframe img{
+    height: 100px;
+    padding: .5rem;
 }
