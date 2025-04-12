@@ -80,3 +80,8 @@ nav a, p {
     width: auto;
     padding: .5rem;
 }
+
+span {
+    font-size: .6rem;
+    font-family: "Roboto", sans-serif;
+}
