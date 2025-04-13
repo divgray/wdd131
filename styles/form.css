@@ -95,6 +95,16 @@
     border-radius: 1rem;
   }
   
+  .review-message {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .review-message p {
+    font-family: "Roboto", sans-serif;
+    padding: 1rem;
+  }
   .center-link {
     text-align: center;
     margin-top: 1.5rem;
@@ -104,9 +114,13 @@
     display: inline-block;
     font-size: 1rem;
     text-decoration: none;
-    color: #55459c;
+    color: white;
+    background-color: #55459c;
+    padding: 1rem;
+    border-radius: 1rem;
   }
   
   .center-link a:hover {
     text-decoration: underline;
   }
+

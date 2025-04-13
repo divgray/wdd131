@@ -21,3 +21,10 @@ const products = [
     option.textContent = product.name;
     select.appendChild(option);
   });
+
+  
+const counter = localStorage.getItem('reviewCount') || 0;
+localStorage.setItem('reviewCount', Number(counter) + 1);
+window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('count').textContent = localStorage.getItem('reviewCount');
+});
