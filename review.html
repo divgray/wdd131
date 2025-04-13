@@ -7,7 +7,13 @@
         <meta name="description" content="WDD 131: Week 5 Assignment: Review html">
         <title>Review Submitted</title>
         <link rel="stylesheet" href="styles/form.css" />
-        <script src="scripts/form.js" defer></script>
+        <script defer>
+            const counter = localStorage.getItem('reviewCount') || 0;
+            localStorage.setItem('reviewCount', Number(counter) + 1);
+            window.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('count').textContent = localStorage.getItem('reviewCount');
+                });
+        </script>
     </head>
     <body>
         <header>
