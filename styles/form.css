@@ -54,7 +54,7 @@ fieldset {
 .star {
   font-size: 1.2rem;
   margin-left: 0.2rem;
-  margin-top: -1rem;
+  margin-top: -1.5rem;
 }
   
 .optional {
@@ -123,6 +123,6 @@ footer {
   text-decoration: underline;
 }
 
-#productName, .rating, #installDate {
+/* #productName, .rating, #installDate {
   border-left: 2px solid red;
-}
+} */
