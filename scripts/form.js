@@ -26,5 +26,5 @@ const products = [
 const counter = localStorage.getItem('reviewCount') || 0;
 localStorage.setItem('reviewCount', Number(counter) + 1);
 window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('count').textContent = localStorage.getItem('reviewCount');
+  document.getElementById('count').textContent = localStorage.getItem('reviewCount');
 });
