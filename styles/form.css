@@ -1,129 +1,127 @@
 :root {
-    margin: auto;
-    padding: 0;
-    background-color: #f4f4f4;
-    width: 400px;
-  }
+  margin: auto;
+  padding: 0;
+  background-color: #f4f4f4;
+  width: 400px;
+}
   
-  header {
-    font-family: "Montserrat", sans-serif;
-    background-color: #55459c;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 1rem;
-  }
+header {
+  font-family: "Montserrat", sans-serif;
+  background-color: #55459c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
   
-  main {
-    display: flex;
-    justify-content: center;
-  }
+main {
+  display: flex;
+  justify-content: center;
+}
   
-  form {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 1rem;
-  }
+form {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
   
-  label,
-  legend {
-    font-family: "Prompt", sans-serif;
-    font-size: 1rem;
-    display: block;
-    margin-top: 1rem;
-
-  }
+label, legend {
+  font-family: "Prompt", sans-serif;
+  font-size: 1rem;
+  display: block;
+  margin-top: 1rem;
+}
   
-  input[type="text"],
-  input[type="date"],
+input[type="text"], input[type="date"],
   select,
-  textarea {
-    width: 90%;
-    padding: 1rem;
-    margin-top: 0.3rem;
-    border-radius: .5rem;
-    border: 1px solid grey;
-    font-family: "Roboto", sans-serif;
-  }
+textarea {
+  width: 90%;
+  padding: 1rem;
+  margin-top: 0.3rem;
+  border-radius: .5rem;
+  border: 1px solid grey;
+  font-family: "Roboto", sans-serif;
+}
   
-  textarea {
-    min-height: 100px;
-  }
+textarea {
+  min-height: 100px;
+}
   
-  fieldset {
-    border: none;
-  }
+fieldset {
+  border: none;
+}
   
-  .star {
-    font-size: 1.2rem;
-    margin-left: 0.2rem;
-    margin-top: -1rem;
-  }
+.star {
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+  margin-top: -1rem;
+}
   
-  .optional {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8rem;
-    color: #555;
-  }
+.optional {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: #555;
+}
   
-  input[type="submit"] {
-    font-family: "Prompt", sans-serif;
-    font-size: 1rem;
-    border: none;
-    background-image: linear-gradient(#55459c, #281a64);
-    color: white;
-    border-radius: 1rem;
-    padding: 1rem;
-    width: 90%;
-    max-width: 400px;
-    margin: 1rem;
-    box-shadow: 1px 1px 4px grey;
-    cursor: pointer;
-  }
+input[type="submit"] {
+  font-family: "Prompt", sans-serif;
+  font-size: 1rem;
+  border: none;
+  background-image: linear-gradient(#55459c, #281a64);
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 90%;
+  max-width: 400px;
+  margin: 1rem;
+  box-shadow: 1px 1px 4px grey;
+  cursor: pointer;
+}
   
-  input[type="submit"]:hover {
-    background-color: blueviolet;
-  }
+input[type="submit"]:hover {
+  background-color: blueviolet;
+}
   
-  footer {
-    font-family: "Montserrat", sans-serif;
-    background-color:#55459c;
-    color: white;
-    text-align: center;
-    padding: .5rem;
-    font-size: 0.7rem;
-    margin-top: 1rem;
-    border-radius: 1rem;
-  }
+footer {
+  font-family: "Montserrat", sans-serif;
+  background-color:#55459c;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
   
-  .review-message {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
+.review-message {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
-  .review-message p {
-    font-family: "Roboto", sans-serif;
-    padding: 1rem;
-  }
+.review-message p {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+}
+
   .center-link {
-    text-align: center;
-    margin-top: 1.5rem;
-  }
+  text-align: center;
+  margin-top: 1.5rem;
+}
   
-  .center-link a {
-    display: inline-block;
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-    background-color: #55459c;
-    padding: 1rem;
-    border-radius: 1rem;
-  }
+.center-link a {
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #55459c;
+  padding: 1rem;
+  border-radius: 1rem;
+}
   
-  .center-link a:hover {
-    text-decoration: underline;
-  }
+.center-link a:hover {
+  text-decoration: underline;
+}
 
 #productName, .rating, #installDate {
   border-left: 2px solid red;
