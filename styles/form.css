@@ -57,6 +57,7 @@
   .star {
     font-size: 1.2rem;
     margin-left: 0.2rem;
+    margin-top: -1rem;
   }
   
   .optional {
@@ -124,3 +125,6 @@
     text-decoration: underline;
   }
 
+#productName, .rating, #installDate {
+  border-left: red;
+}
