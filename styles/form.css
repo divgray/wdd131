@@ -126,5 +126,5 @@
   }
 
 #productName, .rating, #installDate {
-  border-left: red;
+  border-left: 1px solid red;
 }
