@@ -1,0 +1,253 @@
+@media screen and (min-width: 600px) {
+    /* - - larger screen view - - */
+    
+
+}
+
+/* - - phone view - - */
+:root {
+    margin: auto;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* - - all h1,h2,h3 here. my head is spinning - - */
+h1 {
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    width: 65%;
+}
+
+h2 {
+    font-family: "Prompt", sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+}
+
+/* - - all header - - */
+#opening {
+    display: flex;
+    background-image: linear-gradient(rgb(200, 200, 0), yellow ,rgb(255, 255, 100));
+    justify-content: center;
+    border-radius: 1rem;
+}
+    
+#opening img {
+    width: 50px;
+    height: auto;
+    padding: .5rem;
+}
+
+nav {
+    margin-top: .5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    background-color: yellow;
+}
+    
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: .5rem;
+    font-family: "Prompt", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+nav a:hover {
+    font-size: 1.2rem;
+    text-decoration: overline;
+    font-family: "Prompt", sans-serif;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.movie-card {
+    background-color: yellow;
+    text-align: center;
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+    min-width: 300px;
+    box-shadow: 0 0 0.5rem #000;
+    border: 1px solid #ccc;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.album {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+    padding: 0.5rem;
+}
+
+#album div {
+    background-color: yellow;
+    padding-bottom: .5rem;
+    margin: .5rem auto;
+    border-radius: 1rem;
+    min-width: 300px;
+    margin-right: .4rem;
+    height: auto;
+}
+
+#album div img {
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    box-shadow: .5rem .5rem .5rem #000000;
+    margin-top: 1.5rem;
+}
+
+#album p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    margin-bottom: -.5rem;
+    text-align: left;
+}
+
+
+
+.album::-webkit-scrollbar {
+    width: 10px;
+}
+
+.album::-webkit-scrollbar-thumb {
+    background: yellow;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+.album::-webkit-scrollbar-thumb:hover {
+    background: grey;   /* The color when pointer touches */
+}
+
+.album::-webkit-scrollbar-track {
+    background: rgb(42, 42, 42);   /*the horizontal thingy in the scroll bar */
+}
+
+
+.summary {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    font-size: 0.8rem;
+    display: none;
+    padding-bottom: 4rem;
+}
+
+.summary.open {
+    max-height: 100px; /* Adjust this value based on the expected summary length */
+    opacity: 1;
+    display: block !important;
+}
+
+.see-more {
+    font-family: "Prompt", sans-serif;
+    font-size: .8rem;
+    background-color: yellow;
+    color: black;
+    border: 1px solid rgb(200, 200, 0);
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.see-more:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    background-image: linear-gradient(rgb(255, 255, 120), yellow , rgb(200, 200, 0));
+    color: black;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+
+
+
+form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  
+  label,
+  legend {
+    font-family: "Prompt", sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 0.3rem;
+    border-radius: .5rem;
+    border: 1px solid grey;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  textarea {
+    min-height: 5px;
+    border-left: 2px solid red;
+  }
+  
+  fieldset {
+    border: none;
+  }
+
+  .optional {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  input[type="submit"] {
+    font-family: "Prompt", sans-serif;
+    font-size: 1rem;
+    border: none;
+    background-color: yellow;
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+    margin: 1rem;
+    box-shadow: 1px 1px 4px grey;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgb(255, 255, 121);
+  }

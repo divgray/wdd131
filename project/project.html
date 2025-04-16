@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Final Project</title>
+    <meta name="author" content="Divya Ali Priya Giray">
+    <meta name="description" content="WDD 131 Final Project: Movie Nights. A simple site of listed movies you can watch when you are bored.">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Prompt:wght@400;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="opening">
+            <h1>Movie Nights</h1>
+            <img src="https://www.pngplay.com/wp-content/uploads/6/Cinema-Icon-PNG-Clipart-Background.png" alt="A simple black logo of a movie slate" loading="lazy">
+        </div>
+        <nav>
+            <a href="#" accesskey="h" id="home">Home</a>
+            <a href="#" accesskey="a" id="animated" >Animated</a>
+            <a href="#" accesskey="e" id="english" >English</a>
+            <a href="#" accesskey="f" id="foreign" >Foreign</a>
+            <a href="#" accesskey="s" id="series" >Series</a>
+        </nav>
+    </header>
+    <main>
+        <div id="album" class="album"></div>
+
+        <form method="get" action="project.html">
+            <label for="movie-recom" id="movie-recomm">Send a Movie Recommendation!</label>
+            <textarea id="movie-recomm" name="message" rows="1" cols="10" required>Type the movie title here...</textarea>
+            <fieldset>
+                <legend>What genre?</legend>
+                <label><input type="checkbox" id:="action" name:="genre" value="Action">Action</label>
+                <label><input type="checkbox" id:="adventure" name:="genre" value="Adventure">Adventure</label>
+                <label><input type="checkbox" id:="animated" name:="genre" value="Animated">Animated</label>
+                <label><input type="checkbox" id:="drama" name:="genre" value="Drama">Drama</label>
+                <label><input type="checkbox" id:="sci-fi" name:="genre" value="Sci-fi">Sci-fi</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>What do you think about my list?</legend>
+                <label><input type="radio" name="good-or-bad" id="up" value="1" class="up">👍</label>
+                <label><input type="radio" name="good-or-bad" id="down" value="2" class="down">👎</label>
+            </fieldset>
+        
+            <label for="username">Your Name: <span class="optional">(Optional)</span></label>
+            <input type="text" id="username" name="username">
+            <head></head>
+          
+            <input type="submit" value="Send Movie Recommendation">
+
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🎥 Divya Ali Priya Giray 🎥 Rizal, Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
