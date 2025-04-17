@@ -80,7 +80,7 @@ nav a:hover {
     border: 1px solid #ccc;
     padding: 16px;
     position: relative;
-    width: 100%;
+    width: 300px;
 }
 
 .album {
@@ -96,7 +96,6 @@ nav a:hover {
     margin: .5rem auto;
     border-radius: 1rem;
     min-width: 300px;
-    margin-right: .4rem;
     height: auto;
 }
 
