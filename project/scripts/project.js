@@ -278,38 +278,43 @@ textarea.addEventListener('blur', () => {
 });
 
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
 
-    const movieTitle = document.getElementById('movie-recom').value.trim();
-
-    if (!movieTitle) {
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("myform");
+    
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      
+      const movieTitle = document.getElementById('movie-recom').value.trim();
+      if (!movieTitle) {
         alert("Please provide a movie title before submitting!");
         return;
-    }
-
-    const selectedGenreElements = document.querySelectorAll('input[name="genre"]:checked');
-    const genres = Array.from(selectedGenreElements).map(checkbox => checkbox.value);
-    const feedbackInput = document.querySelector('input[name="good-or-bad"]:checked');
-    const feedback = feedbackInput ? feedbackInput.value : null;
-    const username = document.getElementById('username').value.trim();
-
-    const recommendation = {
+      }
+      
+      const selectedGenreElements = document.querySelectorAll('input[name="genre"]:checked');
+      const genres = Array.from(selectedGenreElements).map(checkbox => checkbox.value);
+      const feedbackInput = document.querySelector('input[name="good-or-bad"]:checked');
+      const feedback = feedbackInput ? feedbackInput.value : null;
+      const username = document.getElementById('username').value.trim();
+      
+      const recommendation = {
         movieTitle: movieTitle,
         genres: genres,
         feedback: feedback,
         username: username || "Not provided",
         dateSubmitted: new Date().toISOString()
-    };
-
-    let recommendations = JSON.parse(localStorage.getItem('movieRecommendations')) || [];
-    recommendations.push(recommendation);
-    localStorage.setItem('movieRecommendations', JSON.stringify(recommendations));
-
-    alert("Your movie recommendation has been saved!");
-
-    form.reset();
-
-    const textarea = document.getElementById('movie-recom');
-    textarea.value = "Type the movie title here...";
-});
+      };
+      
+      let recommendations = JSON.parse(localStorage.getItem('movieRecommendations')) || [];
+      recommendations.push(recommendation);
+      localStorage.setItem('movieRecommendations', JSON.stringify(recommendations));
+      
+      alert("Your movie recommendation has been saved!");
+      
+      form.reset();
+      
+      const textarea = document.getElementById('movie-recom');
+      textarea.value = "Type the movie title here...";
+    });
+  });
+  
