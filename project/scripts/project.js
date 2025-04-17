@@ -278,7 +278,6 @@ textarea.addEventListener('blur', () => {
 });
 
 
-
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("myform");
     
@@ -304,6 +303,9 @@ document.addEventListener("DOMContentLoaded", function () {
         username: username || "Not provided",
         dateSubmitted: new Date().toISOString()
       };
+  
+      // Debug: Log the recommendation before saving
+      console.log("Saving recommendation:", recommendation);
       
       let recommendations = JSON.parse(localStorage.getItem('movieRecommendations')) || [];
       recommendations.push(recommendation);
@@ -316,5 +318,26 @@ document.addEventListener("DOMContentLoaded", function () {
       const textarea = document.getElementById('movie-recom');
       textarea.value = "Type the movie title here...";
     });
+  });
+
+
+  const recommendations = JSON.parse(localStorage.getItem('movieRecommendations')) || [];
+  recommendations.forEach(rec => {
+    // Transform feedback value for display
+    const feedbackText = rec.feedback === "1" 
+      ? "Thumbs Up" 
+      : rec.feedback === "0" 
+        ? "Thumbs Down" 
+        : "No feedback provided";
+      
+    const recommendationContainer = document.createElement('div');
+    recommendationContainer.innerHTML = `
+      <h3>${rec.movieTitle}</h3>
+      <p>Genres: ${rec.genres.join(', ')}</p>
+      <p>Feedback: ${feedbackText}</p>
+      <p>Submitted by: ${rec.username}</p>
+      <p>Date: ${rec.dateSubmitted}</p>
+    `;
+    document.body.appendChild(recommendationContainer);
   });
   
